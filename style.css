@@ -1,0 +1,290 @@
+/*Google font included
+font-family: 'Open Sans Condensed', sans-serif;
+ */
+/*Top navigation bar */
+
+.top_nav li :hover{
+	background:none!important;
+	
+}
+.top_nav a:hover{
+	color: #8991ab!important;
+}
+.navbar-toggle{
+	background:#74c1d2;
+}
+.navbar-toggle span{
+	background:white;
+}
+/*navbar social media logo*/
+.top_logo{
+	
+	padding-top:8px;
+	padding-left:0px;
+}
+.top_logo li{
+	padding: 8px 13px;
+    background: #74c1d2;
+    list-style: none;
+	color: white;
+    border-radius: 5px;
+	font-size: 16px;
+	box-shadow:0px 1px 1px black;
+}
+
+.top_logo li:hover{
+	background:#337ab7;
+}
+
+/*Completed the top navigation bar */
+
+/*Starting the bottom menubar */
+.single-content{
+	/*background-color:#00d2ff;*/
+}
+.navbar-header{
+	background-color:#00d2ff;
+	
+}
+.navbar-inverse{
+	background-color: #00d2ff;
+    border-color: none;
+	
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: black;
+}
+
+.navbar-inverse .navbar-toggle{
+	background:#00d2ff!important;
+}
+.navbar-inverse .navbar-toggle{
+	border-color:none;
+}
+/*End the bottom menubar */
+
+/*Starting read more section*/
+#more{
+	display:none;
+	
+	
+}
+.search_jewel{
+	margin-top:8px;
+}
+/*Starting portfolio_section css coding below */
+.portfolio_section{
+	background:#F6F9F9!important;
+	overflow:hidden;
+}
+
+.portfolio_section img{
+	height:150px;
+	width:300px;
+}
+/*Slider section */
+.item img{
+	max-height:550px;
+	
+}
+.slider{
+	width:300px;
+	height:200px;
+	overflow:hidden;
+}
+.contentjj{
+	position:relative;
+	height:auto;
+	width:100%;
+	background:black;
+	opacity:0.1;
+	transition:2s;
+	border-radius:6px;
+}
+.text_area{
+	text-align:center;
+	line-height:210px;
+	font-size:40px;
+	color:white;
+	
+}
+.text_area a{
+	text-decoration:none;
+	
+}
+.slider:hover .contentjj{
+	transform:translatey(-200px);
+}
+/*slider up writing section */
+
+/*End the Slider section */
+
+/*Starting About Section */
+.about img{
+	height:200px;
+	width:200px;
+	
+}
+.about{
+	background-color:#F6F9F9;
+	overflow:hidden;
+}
+.developer{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+}
+.developer_content{
+	position:relative;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	background:black;
+	opacity:0.5;
+	transition:2s;
+}
+.text_developer{
+	text-align:center;
+	line-height:200px;
+	color:black;
+	font-size:20px;
+}
+.developer:hover .developer_content{
+	transform:translatey(-200px);
+	
+}
+/*Starting form Section */
+.footer_section{
+	background-image:url("asset/images/4.jpg");
+	height:400px;
+	width:100%;
+	color:white;
+	
+}
+
+.contact_us{
+	background:#364335;
+	color:white;
+}
+.custom_input{
+	background:none;
+	color:white;
+}
+.checkbox{
+	width:20px;
+	height:20px;
+	overflow:hidden;
+	background:none;
+	
+}
+.footer_section span{
+	position:relative;
+	top:-6px;
+}
+.custom_btn{
+	background:none;
+	color:white!important;
+}
+.custom_btn:hover{
+    color:black!important;
+}
+.checkbox, .radio{
+	display:unset;
+}
+/*End the form section */
+.footer_logo a{
+	text-decoration:none;
+	font-size:25px;
+	color:white;
+}
+.footer_logo li{
+	padding:5px 10px;
+	background:#27A8F4;
+	list-style:none;
+	border-radius:5px;
+}
+.footer_logo a:hover{
+	color:#286090;
+	
+}
+.footer_logo em{
+	color:blue;
+}
+.btn-primary{
+	background:none;
+	color:black;
+}
+.btn-primary:hover{
+	background:#F6F9F9;
+	color:black;
+}
+/*text margin close*/
+.row{
+	text-align:justify;
+}
+/*Starting the showcase css code*/
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*End the showcase code*/
+.custom_recent{
+	text-align:justify;
+}
+.custom_recent img{
+	border-radius:10px;
+	
+}
+/*Starting the map code*/
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-3 iframe{
+position: absolute;
+left:0;
+top:0;
+height:100%;
+width:100%;
+}
+/*Starting the Contact us Section code*/
+#Con_us{
+    color:yellow;
+}
+#Con_contact{
+    font-size:18px;
+    color:Yellow;
+}
+#Con_phone{
+    color:green;
+    font-size:18px;
+}
+#Con_email{
+    font-size:18px;
+    color:green;
+}
+#Con_internet{
+    color:green;
+    font-size:18px;
+}
+#Con_location{
+    font-size:50px;
+    color:yellow;
+}
+/*Elevator code*/
+#more_elevator{
+    display:none;
+}
+
+

@@ -1,0 +1,45 @@
+
+.com-headding{
+	background:lightblue;
+	border-radius:3px;
+}
+nav.navbar.navbar-default {
+    border-color: rgba(106, 218, 125, 0.78);
+}
+
+.nav-pills>li>a:hover{
+	border-radius:0px;
+	background:none;
+}
+.nav-pills>li>a{
+	padding:13px 20px;
+}
+.logo img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	
+}
+.nav-background{
+	background:#F2F2F2;
+	box-shadow:0px 0px 1px black;
+}
+
+.margin{
+	margin-left:12px;
+}
+.margin-right{
+	margin-right:60px;
+}
+.name-margin{
+	margin-left:47px;
+}
+.margin-button-left{
+	margin-left:98px;
+}
+.footer p{
+	background:black;
+	color:white;
+	border-radius:3px;
+}
+/*fjpodsjfkljdflksjdf*/
